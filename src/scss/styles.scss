@@ -10,3 +10,54 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.jumbotron {
+  background: url(../img/pirate-ship.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+.jumbotron h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#journal-entry {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.byline {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.source {
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.nav-item a:link{
+  text-decoration: none;
+}
+
+.nav-item a:visited{
+  font-weight: normal;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.nav-item a:active {
+  font-weight: bold;
+}
+
+#vertical-divider {
+  border-right: 2px solid #8b8b8bb6;
+  margin-bottom: 20px;
+}
+
+#footer {
+  height: 30px;
+}
